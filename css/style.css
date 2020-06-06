@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+header{
+}
+.container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.logo{
+	text-align: center;
+	padding: 10px;
+	border-bottom: 1px solid #e72024;
+}
+.logo a img{
+    width: 75px;
+}
+.menu{
+	text-align: center;
+	padding: 20px;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+.menu ul li a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    color: #ffffff;
+    background: #58a444;
+    padding: 10px;
+    transition-duration: 0.3s;
+    border-radius: 4px;
+}
+.menu ul li a:hover{
+	color: #255157;
+	background: #8ea6b4;
+}
+.banner-section{}
+.banner{
+}
+.banner img{
+    width: 100%;
+}
+.about-section{}
+.about-section h1{
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #275259;
+}
+.about-section p{
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.blog-section{}
+.post{
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+    
+}
+article{
+    box-shadow: 0 20px 15px #ece5e5b5
+}
+article img{
+    max-width: 100%;
+}
+article h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 0;
+    padding: 17px;
+    padding-left: 0;
+    color: #27535a;
+}
+article p{
+    margin: 0;
+    font-size: 20px;
+    color: #444;
+}
+
